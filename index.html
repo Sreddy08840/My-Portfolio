@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Three.js for 3D animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- GSAP for smooth animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="glitch">Welcome to My Portfolio</h1>
+                <p>I'm	looking	for	an	entry-level	job	where	I	can	use	my	passion	for technology	and	my	programming	abilities	to	support	impact	initiatives	and advance	my	development	knowledge.</p>
+            </div>
+            <div id="canvas-container"></div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Santosh</h3>
+                    <p>I am currently pursuing my Bachelor of Engineering (3rd year) in Bangalore at Bangalore Technology of Institution.</p>
+                    <div class="about-contacts">
+                        <p><strong>Contact:</strong> +91-8618808929</p>
+                        <p><strong>Email:</strong>sreddy08840@gmail.com</p>
+                    </div>
+                    <div class="about-social">
+                        <a href="https://www.linkedin.com/in/santosh-5770032b0/" target="_blank" title="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" class="social-icon"></a>
+                        <a href="https://github.com/Sreddy08840" target="_blank" title="GitHub"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" class="social-icon"></a>
+                        <a href="https://x.com/red32126" target="_blank" title="X"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X" class="social-icon"></a>
+                        <a href="https://www.instagram.com/santu_valanki/" target="_blank" title="Instagram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" class="social-icon"></a>
+                        <a href="https://www.naukri.com/mnjuser/profile?id=&altresid" target="_blank" title="Naukri"><img src="navkari.png" alt="Naukri" class="social-icon"></a>
+                    </div>
+                </div>
+                <div class="about-3d">
+                    <img src="profile.jpg" alt="Santosh's Photo" class="profile-photo">
+                </div>
+            </div>
+        </section>
+        <section id="languages" class="section">
+            <h2>Languages</h2>
+            <div class="languages-container">
+                <span class="lang-badge">English</span>
+                <span class="lang-badge">Telugu</span>
+                <span class="lang-badge">Hindi</span>
+                <span class="lang-badge">Kannada</span>
+            </div>
+        </section>
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="education-flex-container">
+                <div class="edu-card">
+                    <h3>Bachelor of Engineering</h3>
+                    <div class="edu-details">
+                        <div class="edu-row">
+                            <p><strong>University:</strong> Visvesvaraya Technological University</p>
+                            <p><strong>Institute:</strong> Bangalore Technology of Institution, Bangalore</p>
+                        </div>
+                        <div class="edu-row">
+                            <p><strong>Year:</strong> 3rd Year</p>
+                            <p><strong>Duration:</strong> 2022 - 2026</p>
+                        </div>
+                        <div class="edu-row">
+                            <p><strong>Current CGPA:</strong> 8.0/10</p>
+                            <p><strong>Passing Percentage:</strong> 85%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <h3>12th PUC</h3>
+                    <div class="edu-details">
+                        <div class="edu-row">
+                            <p><strong>Board:</strong> Karnataka State Board</p>
+                            <p><strong>Institute:</strong>St. Paul's Pre-University College (PUC) in Bidar</p>
+                        </div>
+                        <div class="edu-row">
+                            <p><strong>Year of Passing:</strong> 2022</p>
+                            <p><strong>Duration:</strong> 2020 - 2022</p>
+                        </div>
+                        <div class="edu-row">
+                            <p><strong>Percentage:</strong> 59%</p>
+                            <p><strong>Grade:</strong> B</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <h3>10th Standard</h3>
+                    <div class="edu-details">
+                        <div class="edu-row">
+                            <p><strong>Board:</strong> Karnataka State Board</p>
+                            <p><strong>School:</strong>Govt High School Muttangi</p>
+                        </div>
+                        <div class="edu-row">
+                            <p><strong>Year of Passing:</strong> 2020</p>
+                        </div>
+                        <div class="edu-row">
+                            <p><strong>Percentage:</strong> 75%</p>
+                            <p><strong>Grade:</strong> A</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <div class="certifications-flex-container">
+                <div class="cert-card">
+                    <div class="cert-info">
+                        <h3>Programming In Java By NPTEL</h3>
+                        <p><strong>Completion ID:</strong>NPTEL24CS105S552801847</p>
+                    </div>
+                    <a href="https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs105/Course/NPTEL24CS105S55280184704327851.pdf" target="_blank" class="cert-btn">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-info">
+                        <h3>Responsive Web Design</h3>
+                        <p><strong>Completion ID:</strong>Sreddy86188</p>
+                    </div>
+                    <a href="https://freecodecamp.org/certification/Sreddy86188/responsive-web-design" target="_blank" class="cert-btn">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-info">
+                        <h3>JavaScript Algorithms And Data Structures</h3>
+                        <p><strong>Completion ID:</strong>Sreddy86188</p>
+                    </div>
+                    <a href="https://www.freecodecamp.org/certification/Sreddy86188/javascript-algorithms-and-data-structures-v8" target="_blank" class="cert-btn">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-info">
+                        <h3>Front End Development Libraries</h3>
+                        <p><strong>Completion ID:</strong>Sreddy86188</p>
+                    </div>
+                    <a href="https://www.freecodecamp.org/certification/Sreddy86188/front-end-development-libraries" target="_blank" class="cert-btn">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-info">
+                        <h3>Scientific Computing with Python</h3>
+                        <p><strong>Completion ID:</strong>Sreddy86188</p>
+                    </div>
+                    <a href="https://freecodecamp.org/certification/Sreddy86188/scientific-computing-with-python-v7" target="_blank" class="cert-btn">View Certificate</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Samart-online-voting-system</h3>
+                    </div>
+                    <a href="https://github.com/Sreddy08840/Samart-online-voting-system.git" target="_blank" class="project-btn">GitHub Repo</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>A-Drum-Machine</h3>
+                    </div>
+                    <a href="https://github.com/Sreddy08840/A-Drum-Machine.git" target="_blank" class="project-btn">GitHub Repo</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Random-Quote-Machine</h3>
+                    </div>
+                    <a href="https://github.com/Sreddy08840/Random-Quote-Machine.git" target="_blank" class="project-btn">GitHub Repo</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>A-Calculator</h3>
+                    </div>
+                    <a href="https://github.com/Sreddy08840/A-Calculator.git" target="_blank" class="project-btn">GitHub Repo</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>HTML/CSS</h3>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="90%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>JavaScript</h3>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>Python</h3>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>Java</h3>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>React</h3>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="70%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>C</h3>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-info">
+                        <h3>C++</h3>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>Gallery</h2>
+            <div class="gallery-carousel">
+                <button class="carousel-btn prev-btn">&lt;</button>
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <img src="WhatsApp Image 2025-04-20 at 16.44.44_b072b57d.jpg" alt="Gallery Image 1" class="gallery-image">
+                            <div class="gallery-caption">Recent Photo 1</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="WhatsApp Image 2025-04-20 at 16.44.46_5b7c0a1d.jpg" alt="Gallery Image 2" class="gallery-image">
+                            <div class="gallery-caption">Recent Photo 2</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="WhatsApp Image 2025-04-20 at 16.44.42_a510ef08.jpg" alt="Gallery Image 3" class="gallery-image">
+                            <div class="gallery-caption">Recent Photo 3</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="WhatsApp Image 2025-04-20 at 16.44.34_ecacc314.jpg" alt="Gallery Image 4" class="gallery-image">
+                            <div class="gallery-caption">Recent Photo 4</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="WhatsApp Image 2025-04-20 at 16.44.33_b2f7a235.jpg" alt="Gallery Image 5" class="gallery-image">
+                            <div class="gallery-caption">Recent Photo 5</div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next-btn">&gt;</button>
+                <div class="carousel-dots"></div>
+            </div>
+        </section>
+
+        <section id="resume" class="section">
+            <h2>Resume</h2>
+            <div class="resume-container">
+                <div class="resume-content">
+                    <div class="resume-header">
+                        <h3>Santosh</h3>
+                        <p class="resume-title">Software Developer</p>
+                    </div>
+                    
+                    <div class="resume-section">
+                        <h4>Contact Information</h4>
+                        <div class="resume-details">
+                            <p><strong>Phone:</strong> +91-8618808929</p>
+                            <p><strong>Email:</strong> sreddy08840@gmail.com</p>
+                            <p><strong>Location:</strong> Bangalore, Karnataka</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h4>Education</h4>
+                        <div class="resume-details">
+                            <div class="resume-item">
+                                <h5>Bachelor of Engineering</h5>
+                                <p>Bangalore Technology of Institution, Bangalore</p>
+                                <p>2022 - 2026 | CGPA: 8.0/10</p>
+                            </div>
+                            <div class="resume-item">
+                                <h5>12th PUC</h5>
+                                <p>St. Paul's Pre-University College, Bidar</p>
+                                <p>2020 - 2022 | Grade: B (59%)</p>
+                            </div>
+                            <div class="resume-item">
+                                <h5>10th Standard</h5>
+                                <p>Govt High School Muttangi</p>
+                                <p>2020 | Grade: A (75%)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h4>Skills</h4>
+                        <div class="resume-details">
+                            <div class="skills-grid">
+                                <div class="skill-item">HTML/CSS</div>
+                                <div class="skill-item">JavaScript</div>
+                                <div class="skill-item">Python</div>
+                                <div class="skill-item">Java</div>
+                                <div class="skill-item">React</div>
+                                <div class="skill-item">C</div>
+                                <div class="skill-item">C++</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h4>Certifications</h4>
+                        <div class="resume-details">
+                            <div class="resume-item">
+                                <h5>Programming In Java By NPTEL</h5>
+                                <p>Completion ID: NPTEL24CS105S552801847</p>
+                            </div>
+                            <div class="resume-item">
+                                <h5>Responsive Web Design</h5>
+                                <p>FreeCodeCamp Certification</p>
+                            </div>
+                            <div class="resume-item">
+                                <h5>JavaScript Algorithms And Data Structures</h5>
+                                <p>FreeCodeCamp Certification</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h4>Projects</h4>
+                        <div class="resume-details">
+                            <div class="resume-item">
+                                <h5>Smart Online Voting System</h5>
+                                <p>A secure and efficient online voting platform</p>
+                            </div>
+                            <div class="resume-item">
+                                <h5>Drum Machine</h5>
+                                <p>Interactive web-based drum machine application</p>
+                            </div>
+                            <div class="resume-item">
+                                <h5>Random Quote Machine</h5>
+                                <p>Dynamic quote generator with sharing capabilities</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-actions">
+                        <a href="resume.pdf" class="resume-btn download-btn" download="Santosh_Resume.pdf">Download Resume</a>
+                        <a href="#" class="resume-btn print-btn" onclick="window.print()">Print Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
