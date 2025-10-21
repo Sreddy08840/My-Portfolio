@@ -1,0 +1,27 @@
+/* Tailwind CSS imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+  body {
+    @apply bg-darker text-gray-100 antialiased;
+  }
+}
+
+/* Custom component styles */
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16;
+  }
+
+  .glass-effect {
+    @apply bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Santosh",
+  "title": "Full-Stack Developer, Web Developer",
+  "tagline": "💻 Software Developer | 👨‍🎓 CSE Student | 🌱 Lifelong Learner",
+  "location": "Bangalore, India",
+  "email": "sreddy08840@gmail.com",
+  "github": "https://github.com/Sreddy08840",
+  "linkedin": "https://www.linkedin.com/in/santosh-5770032b0/",
+  "portfolio": "https://sreddy08840.github.io/My-Portfolio/",
+  "photo": "/photo.jpg",
+  "about": "🔧 I love building full-stack web applications, solving real-world problems, and learning new tech. I build beautiful, interactive web apps with 3D animations. Currently building Agri-Connect and several full-stack projects.",
+  "education": [
+    {
+      "id": 1,
+      "degree": "B.Tech in Computer Science Engineering",
+      "institution": "Bangalore Technological Institute",
+      "location": "Bangalore, India",
+      "duration": "2022 - 2026",
+      "details": "Pursuing Bachelor of Technology in Computer Science with focus on full-stack development and modern web technologies."
+    }
+  ],
+  "skills": {
+    "languages": ["Java", "Python", "JavaScript", "TypeScript", "SQL"],
+    "frontend": ["HTML", "CSS", "React.js", "Tailwind CSS", "Next.js"],
+    "backend": ["Node.js", "Express.js", "Spring Boot"],
+    "databases": ["MySQL", "MongoDB"],
+    "tools": ["Git", "GitHub", "VS Code", "Cursor", "Vite"]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "title": "Full-Stack Developer",
+      "company": "Personal Projects",
+      "type": "Self-Employed",
+      "duration": "2023 - Present",
+      "location": "Bangalore, India",
+      "description": "Building modern web applications using React, Node.js, and TypeScript. Developed multiple full-stack projects including e-commerce platforms, social networks, and clinic management systems.",
+      "achievements": [
+        "Built Agri-Connect platform connecting farmers and buyers",
+        "Developed social networking site with Java and MySQL",
+        "Created clinic management system with Next.js"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Agri-Connect",
+      "desc": "A web app connecting farmers, buyers, and experts. Features marketplace, social features, and agricultural resources. Built with React, Node.js, SQL, and TypeScript.",
+      "link": "https://github.com/Sreddy08840/agri-connect",
+      "tech": ["React", "Node.js", "TypeScript", "SQL"]
+    },
+    {
+      "id": 2,
+      "name": "Social Network Site",
+      "desc": "A full-stack social networking web application built using Java (JSP, Servlets) and MySQL. Features include user authentication, profile management, friend system, posts with images, likes, comments.",
+      "link": "https://github.com/Sreddy08840/social-network-site",
+      "tech": ["Java", "JSP", "MySQL", "Servlets"]
+    },
+    {
+      "id": 3,
+      "name": "Clinic Front Desk",
+      "desc": "A front-desk web app for clinics built with Next.js & Tailwind CSS. Manages appointments, patient info, and daily clinic workflows in a responsive UI.",
+      "link": "https://github.com/Sreddy08840/clinic-front-desk",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS"]
+    },
+    {
+      "id": 4,
+      "name": "Smart Online Voting System",
+      "desc": "A Python-based Smart Online Voting System with modules for voter registration, authentication, secure voting, and admin management. Designed to explore digital voting and database integration.",
+      "link": "https://github.com/Sreddy08840/Samart-online-voting-system",
+      "tech": ["Python", "SQLite", "Tkinter"]
+    },
+    {
+      "id": 5,
+      "name": "Drum Machine",
+      "desc": "A JavaScript-based Drum Machine web app that lets users play drum sounds by clicking buttons or pressing keys. Built as an interactive project to practice web audio and DOM manipulation.",
+      "link": "https://github.com/Sreddy08840/A-Drum-Machine",
+      "tech": ["JavaScript", "HTML", "CSS", "Web Audio API"]
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "name": "Full-Stack Web Development",
+      "issuer": "freeCodeCamp",
+      "date": "2023",
+      "description": "Completed comprehensive training in HTML, CSS, JavaScript, React, Node.js, and database management.",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "Java Programming",
+      "issuer": "Online Course",
+      "date": "2023",
+      "description": "Advanced Java programming including Spring Boot, JSP, and Servlets.",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "name": "React Developer Certification",
+      "issuer": "Udemy",
+      "date": "2024",
+      "description": "Advanced React patterns, hooks, state management, and modern React development practices.",
+      "link": "#"
+    }
+  ]
+}
