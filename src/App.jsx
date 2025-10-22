@@ -8,7 +8,6 @@ import { motion } from 'framer-motion'
 import Hero3D from './components/Hero3D'
 import ProjectCard from './components/ProjectCard'
 import ContactForm from './components/ContactForm'
-import AdminPanel from './components/AdminPanel'
 import Skills from './components/Skills'
 import About from './components/About'
 import Certificates from './components/Certificates'
@@ -121,19 +120,9 @@ const App = () => {
               <a href="#contact" className="text-gray-300 hover:text-primary transition text-sm">
                 Contact
               </a>
-              <button
-                onClick={handleAdminAccess}
-                className="text-gray-500 hover:text-gray-300 transition text-sm"
-              >
-                Admin
-              </button>
+              
             </div>
-            <button
-              onClick={handleAdminAccess}
-              className="md:hidden text-gray-500 hover:text-gray-300 transition text-sm"
-            >
-              Admin
-            </button>
+           
           </div>
         </div>
       </nav>

@@ -1,7 +1,7 @@
 {
   "name": "Santosh",
-  "title": "Full-Stack Developer, Web Developer",
-  "tagline": "💻 Software Developer | 👨‍🎓 CSE Student | 🌱 Lifelong Learner",
+  "title": "Full-Stack Developer, Web Developer,Software Developer",
+  "tagline": "💻 Software Developer,Full-Stack Developer,Web Developer | 👨‍🎓 CSE Student | 🌱 Lifelong Learner",
   "location": "Bangalore, India",
   "email": "sreddy08840@gmail.com",
   "github": "https://github.com/Sreddy08840",
@@ -77,32 +77,54 @@
       "desc": "A JavaScript-based Drum Machine web app that lets users play drum sounds by clicking buttons or pressing keys. Built as an interactive project to practice web audio and DOM manipulation.",
       "link": "https://github.com/Sreddy08840/A-Drum-Machine",
       "tech": ["JavaScript", "HTML", "CSS", "Web Audio API"]
+    },
+    {
+      "id": 6,
+      "name": "clinic-front-desk",
+      "desc": "A front-desk web app for clinics built with Next.js & Tailwind CSS. Manages appointments, patient info, and daily clinic workflows in a responsive UI",
+      "link": "https://clinic-front-desk-alpha.vercel.app/",
+      "tech": ["TypeScript", "node.js", "Tailwind CSS"]
+    },
+    {
+      "id": 7,
+      "name": "AI-powered interview assistant",
+      "desc": "AI-powered interview assistant that turns a resume into a timed, 6-question interview and generates AI-based scoring and summaries for interviewers.",
+      "link": "https://merry-churros-f6b2ed.netlify.app/",
+      "tech": ["React", "redis", "Tailwind CSS","JavaScript"]
     }
   ],
   "certificates": [
     {
       "id": 1,
-      "name": "Full-Stack Web Development",
-      "issuer": "freeCodeCamp",
-      "date": "2023",
-      "description": "Completed comprehensive training in HTML, CSS, JavaScript, React, Node.js, and database management.",
-      "link": "#"
+      "name": "progaraming in java",
+      "issuer": "National Programme on Technology Enhanced Learning(NPTEL)",
+      "date": "2024",
+      "description": "I have successfully completed the 'Programming in Java' course offered by NPTEL and IIT Kanpur. The course covered fundamental and advanced concepts of Java, including object-oriented programming, classes and objects, inheritance, interfaces, exception handling, multithreading, collections, and file handling. It also introduced GUI programming using AWT and applets. Weekly assignments and quizzes helped reinforce theoretical knowledge with practical coding skills. This course enhanced my ability to develop Java applications and strengthened my overall programming foundation",
+      "link": "https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs105/Course/NPTEL24CS105S55280184704327851.pdf"
     },
     {
       "id": 2,
-      "name": "Java Programming",
-      "issuer": "Online Course",
-      "date": "2023",
-      "description": "Advanced Java programming including Spring Boot, JSP, and Servlets.",
-      "link": "#"
+      "name": "Responsive Web Design",
+      "issuer": "freecodecamp",
+      "date": "2024",
+      "description": "I successfully earned the Responsive Web Design Certification from freeCode amp.Through this course, I built multiple projects like a tribute page, survey form, and personal portfolio.I gained hands-on experience in HTML5 and CSS3, including Flexbox and CSS Grid.The certification emphasized creating websites that look great on all devices.It strengthened my foundation in front-end web development and responsive design principles.",
+      "link": "https://www.freecodecamp.org/certification/Sreddy86188/responsive-web-design"
     },
     {
       "id": 3,
-      "name": "React Developer Certification",
-      "issuer": "Udemy",
-      "date": "2024",
-      "description": "Advanced React patterns, hooks, state management, and modern React development practices.",
-      "link": "#"
+      "name": "Front End Development Libraries",
+      "issuer": "freecodecamp",
+      "date": "2025",
+      "description": "I earned the Front End Development Libraries Certification from freeCodeCamp. This course deepened my skills in React, Redux, Bootstrap, jQuery, and Sass. I built interactive projects like a Markdown Previewer and a Drum Machine. It enhanced my understanding of component-based architecture and UI May 17, 2025 Currently ongoing design. This certification strengthened my ability to build dynamic, responsive web applications.",
+      "link": "https://www.freecodecamp.org/certification/Sreddy86188/front-end-development-libraries"
+    },
+     {
+      "id": 4,
+      "name": "Scientific Computing with Python",
+      "issuer": "freecodecamp",
+      "date": "2025",
+      "description": "I earned the Scientific Computing with Python Certification from freeCodeCamp.The course covered Python fundamentals, data structures, and libraries like math and datetime.I built real-world projects such as a budget calculator and time calculator.It strengthened my problem-solving skills using Python for scientific and technical tasks.This certification laid a strong foundation in programming and computational thinking with Python.",
+      "link": "https://www.freecodecamp.org/certification/Sreddy86188/scientific-computing-with-python-v7"
     }
   ]
 }
