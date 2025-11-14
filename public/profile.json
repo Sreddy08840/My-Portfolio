@@ -91,6 +91,13 @@
       "desc": "AI-powered interview assistant that turns a resume into a timed, 6-question interview and generates AI-based scoring and summaries for interviewers.",
       "link": "https://merry-churros-f6b2ed.netlify.app/",
       "tech": ["React", "redis", "Tailwind CSS","JavaScript"]
+    },
+    {
+      "id": 8,
+      "name": "Mock-E-Com-Cart",
+      "desc": "Mock E-Com Cart — A full-stack shopping cart web app built with React, Node.js, Express, and SQLite. This project demonstrates key e-commerce features like product listing, add/remove cart items, total price calculation, and a mock checkout flow.",
+      "link": "https://github.com/Sreddy08840/Mock-E-Com-Cart.git",
+      "tech": ["React", "redis", "Tailwind CSS","JavaScript"]
     }
   ],
   "certificates": [
@@ -125,6 +132,14 @@
       "date": "2025",
       "description": "I earned the Scientific Computing with Python Certification from freeCodeCamp.The course covered Python fundamentals, data structures, and libraries like math and datetime.I built real-world projects such as a budget calculator and time calculator.It strengthened my problem-solving skills using Python for scientific and technical tasks.This certification laid a strong foundation in programming and computational thinking with Python.",
       "link": "https://www.freecodecamp.org/certification/Sreddy86188/scientific-computing-with-python-v7"
-    }
+    },
+    {
+      "id": 4,
+      "name": " Data Structure and Algorithms using Java",
+      "issuer": "National Programme on Technology Enhanced Learning(NPTEL)",
+      "date": "2025",
+      "description":"Successfully completed the NPTEL course “Data Structures and Algorithms Using Java”, gaining strong foundational and advanced knowledge of DSA concepts. Learned to analyze time and space complexity, implement core data structures (arrays, linked lists, stacks, queues, trees, graphs, hash tables), and solve algorithmic problems using Java. Developed skills in recursion, sorting, searching, greedy algorithms, dynamic programming, and graph algorithms, applying them through hands-on coding assignments and quizzes.",
+      "link": "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs148/Course/NPTEL25CS148S95260375110891627.pdf"
+      }
   ]
 }
